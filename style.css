@@ -1,0 +1,29 @@
+.g-flex-right--xs {
+	justify-content: flex-start;
+}
+
+.u-header__section--light .navbar li a {
+	color: #ffffff;
+	font-weight: 400;
+	letter-spacing: 2px;
+}
+
+.u-header__section--light .navbar li a:hover {
+	color: #E6125d !important;
+}
+
+@media (min-width: 768px) {
+	.g-py-20--md {
+		padding-top: 1.5rem !important;
+		padding-bottom: 1.9286rem !important;
+	}
+}
+
+@media (min-width: 992px) {
+	.navbar-expand-lg .navbar-nav {
+		padding-left: 30px;
+	}
+	.u-header__section--light .navbar li:first-child a {
+		color: #E6125d;
+	}
+}
